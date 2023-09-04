@@ -1,0 +1,361 @@
+PS C:\Users\azjimene\Desktop\Python_FutureCollars\Prework_01> git log
+commit e9237003408cfec07de9c23def2b5874df097778 (HEAD -> master)
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 17:24:58 2023 +0100
+
+    Deleted Coro 02 and updated song.txt
+
+commit ee962a52ca81f920bd0cf0f7a9fd1ea0b7fab013
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 17:21:57 2023 +0100
+
+    Coro 02 added to song.txt added and commited to the repository
+
+commit 1ae5c1340d8873b10764260813022287cab3f497
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 17:20:53 2023 +0100
+
+    Coro_02.txt added and commited to the repository
+
+commit 4678d8c0ec1ab3851161cc2fdb7dcd85f6559440
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 17:15:56 2023 +0100
+
+    Revert "Deleted line from coro file"
+
+    This reverts commit a0bc99124d23fecadf0f76a6a1b0b485cf4b6e02.
+
+commit a0bc99124d23fecadf0f76a6a1b0b485cf4b6e02
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 17:11:46 2023 +0100
+
+    Deleted line from coro file
+
+commit c5c69df41bccd73c0bd6fc9c7811030cf6bbbdb8
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 17:10:17 2023 +0100
+
+    Deleted verso 03 repository
+
+commit f366b38faeeab4942a056b257272493c2ae84b2e
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 17:06:56 2023 +0100
+
+    song.txt named files folder added and commited to the repository
+
+commit a21e6a0214784f6d75ed5851b74641244016bbb2
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 17:01:42 2023 +0100
+
+    Coro 01 added and commited to the repository
+
+commit bc2682ce0a04f0ba89abc1ab9e3463d38f8b4f94
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 16:54:19 2023 +0100
+
+    Verso 2 added and commited to the repository
+
+commit a799596e16e39dad49934b70a6c2f77fd2eab777
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 16:53:52 2023 +0100
+
+    Verso 1 added and commited to the repository
+
+commit e0d76a4ef321f6d7bab8d70db054817bc2e6375e
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 16:50:32 2023 +0100
+
+    Coro_01.txt added and commited to the repository
+
+commit c624d06bde7d9473242c3be2e6c7532fef4f7032
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 16:50:04 2023 +0100
+
+    Verso_03.txt added and commited to the repository
+
+commit 6572df15c1bcb2676706e293a0780f83f8539013
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 16:49:46 2023 +0100
+
+    Verso_02.txt added and commited to the repository
+
+commit 18561a30a40a8770ad4855c8d5564f6c3fff55fd
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 16:49:33 2023 +0100
+
+    Verso_01.txt added and commited to the repository
+
+commit 0bcc15c509421b766ec2df950247f515bf7f5438
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 16:47:40 2023 +0100
+
+    Song.txt added and commited to the repository
+(END)
+
+-------------------------------------------------
+
+
+PS C:\Users\azjimene\Desktop\Python_FutureCollars\Prework_01> git log -p Verso_01.txt
+commit a799596e16e39dad49934b70a6c2f77fd2eab777
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 16:53:52 2023 +0100
+
+    Verso 1 added and commited to the repository
+
+diff --git a/Verso_01.txt b/Verso_01.txt
+index e69de29..876173d 100644
+--- a/Verso_01.txt
++++ b/Verso_01.txt
+@@ -0,0 +1,9 @@
++Siempre en la oscuridad
++La voz no tiene sentido
++El silencio lo es todo
++Héroe en su propio olvido
++En sus ojos apagados
++Hay un eterno castigo
++El héroe de leyenda
++Pertenece al sueño
++De un destino
+
+commit 18561a30a40a8770ad4855c8d5564f6c3fff55fd
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 16:49:33 2023 +0100
+
+    Verso_01.txt added and commited to the repository
+
+diff --git a/Verso_01.txt b/Verso_01.txt
+new file mode 100644
+index 0000000..e69de29
+
+
+-----------------------------------------------------------
+
+PS C:\Users\azjimene\Desktop\Python_FutureCollars\Prework_01> git log -p Verso_01.txt
+commit a799596e16e39dad49934b70a6c2f77fd2eab777
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 16:53:52 2023 +0100
+
+    Verso 1 added and commited to the repository
+
+diff --git a/Verso_01.txt b/Verso_01.txt
+index e69de29..876173d 100644
+--- a/Verso_01.txt
++++ b/Verso_01.txt
+@@ -0,0 +1,9 @@
++Siempre en la oscuridad
++La voz no tiene sentido
++El silencio lo es todo
++Héroe en su propio olvido
++En sus ojos apagados
++Hay un eterno castigo
++El héroe de leyenda
++Pertenece al sueño
++De un destino
+
+commit 18561a30a40a8770ad4855c8d5564f6c3fff55fd
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 16:49:33 2023 +0100
+
+    Verso_01.txt added and commited to the repository
+
+diff --git a/Verso_01.txt b/Verso_01.txt
+new file mode 100644
+index 0000000..e69de29
+
+--------------------------------------------------------------------
+
+PS C:\Users\azjimene\Desktop\Python_FutureCollars\Prework_01> git log -p Coro_01.txt
+commit 4678d8c0ec1ab3851161cc2fdb7dcd85f6559440
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 17:15:56 2023 +0100
+
+    Revert "Deleted line from coro file"
+
+    This reverts commit a0bc99124d23fecadf0f76a6a1b0b485cf4b6e02.
+
+diff --git a/Coro_01.txt b/Coro_01.txt
+index fe4ac19..97934c7 100644
+--- a/Coro_01.txt
++++ b/Coro_01.txt
+@@ -1,5 +1,5 @@
+ En sus ojos apagados
+ Hay un eterno castigo
+-
++El héroe de leyenda
+ Pertenece al sueño
+ De un destino
+\ No newline at end of file
+
+commit a0bc99124d23fecadf0f76a6a1b0b485cf4b6e02
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 17:11:46 2023 +0100
+
+    Deleted line from coro file
+
+diff --git a/Coro_01.txt b/Coro_01.txt
+index 97934c7..fe4ac19 100644
+--- a/Coro_01.txt
++++ b/Coro_01.txt
+@@ -1,5 +1,5 @@
+ En sus ojos apagados
+ Hay un eterno castigo
+-El héroe de leyenda
++
+ Pertenece al sueño
+ De un destino
+\ No newline at end of file
+
+commit a21e6a0214784f6d75ed5851b74641244016bbb2
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 17:01:42 2023 +0100
+
+    Coro 01 added and commited to the repository
+
+diff --git a/Coro_01.txt b/Coro_01.txt
+index e69de29..97934c7 100644
+--- a/Coro_01.txt
++++ b/Coro_01.txt
+@@ -0,0 +1,5 @@
++En sus ojos apagados
++Hay un eterno castigo
++El héroe de leyenda
++Pertenece al sueño
++De un destino
+\ No newline at end of file
+
+commit e0d76a4ef321f6d7bab8d70db054817bc2e6375e
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 16:50:32 2023 +0100
+
+    Coro_01.txt added and commited to the repository
+
+diff --git a/Coro_01.txt b/Coro_01.txt
+new file mode 100644
+index 0000000..e69de29
+(END)
+
+------------------------------------------------------
+
+
+PS C:\Users\azjimene\Desktop\Python_FutureCollars\Prework_01> git log -p song.txt
+commit e9237003408cfec07de9c23def2b5874df097778 (HEAD -> master)
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 17:24:58 2023 +0100
+
+    Deleted Coro 02 and updated song.txt
+
+diff --git a/song.txt b/song.txt
+index 9f98432..ae78529 100644
+--- a/song.txt
++++ b/song.txt
+@@ -4,4 +4,4 @@ Verso_02.txt
+
+ Coro_01.txt
+
+-Coro_02.txt
+\ No newline at end of file
++Coro_01.txt
+\ No newline at end of file
+
+commit ee962a52ca81f920bd0cf0f7a9fd1ea0b7fab013
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 17:21:57 2023 +0100
+
+    Coro 02 added to song.txt added and commited to the repository
+
+diff --git a/song.txt b/song.txt
+index 145b3df..9f98432 100644
+--- a/song.txt
++++ b/song.txt
+@@ -2,4 +2,6 @@ Verso_01.txt
+
+ Verso_02.txt
+
+-Coro_01.txt
+\ No newline at end of file
++Coro_01.txt
++
++Coro_02.txt
+\ No newline at end of file
+
+commit f366b38faeeab4942a056b257272493c2ae84b2e
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 17:06:56 2023 +0100
+
+    song.txt named files folder added and commited to the repository
+
+diff --git a/song.txt b/song.txt
+index 91533a4..145b3df 100644
+--- a/song.txt
++++ b/song.txt
+@@ -1,25 +1,5 @@
+-Siempre en la oscuridad
+-La voz no tiene sentido
+-El silencio lo es todo
+-Héroe en su propio olvido
+-En sus ojos apagados
+-Hay un eterno castigo
+-El héroe de leyenda
+-Pertenece al sueño
+-De un destino
++Verso_01.txt
+
+-Encerrado en el tiempo
+-Ha perdido el valor
+-Para escapar de su celda
+-El héroe sin ilusión
+-En sus ojos apagados
+-Hay un eterno castigo
+-El héroe de leyenda
+-Pertenece al sueño
+-De un destino
++Verso_02.txt
+
+-En sus ojos apagados
+-Hay un eterno castigo
+-El héroe de leyenda
+-Pertenece al sueño
+-De un destino
+\ No newline at end of file
++Coro_01.txt
+\ No newline at end of file
+
+commit 0bcc15c509421b766ec2df950247f515bf7f5438
+Author: Azucena <geoazu.flysch@gmail.com>
+Date:   Mon Sep 4 16:47:40 2023 +0100
+
+    Song.txt added and commited to the repository
+
+diff --git a/song.txt b/song.txt
+new file mode 100644
+index 0000000..91533a4
+--- /dev/null
++++ b/song.txt
+@@ -0,0 +1,25 @@
++Siempre en la oscuridad
++La voz no tiene sentido
++El silencio lo es todo
++Héroe en su propio olvido
++En sus ojos apagados
++Hay un eterno castigo
++El héroe de leyenda
++Pertenece al sueño
++De un destino
++
++Encerrado en el tiempo
++Ha perdido el valor
++Para escapar de su celda
++El héroe sin ilusión
++En sus ojos apagados
++Hay un eterno castigo
++El héroe de leyenda
++Pertenece al sueño
++De un destino
++
++En sus ojos apagados
++Hay un eterno castigo
++El héroe de leyenda
++Pertenece al sueño
++De un destino
+\ No newline at end of file
+(END)
