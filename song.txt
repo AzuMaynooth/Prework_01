@@ -3,3 +3,5 @@ Verso_01.txt
 Verso_02.txt
 
 Coro_01.txt
+
+Coro_02.txt
